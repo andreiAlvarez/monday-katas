@@ -14,7 +14,7 @@ function getMiddle(s)
 
         return s.substring(position, position + length);
   //solution 2      const getMiddle = s => s.substr(s.length - 1 >>> 1, (~s.length & 1) + 1);
-//return s;
+return s;
 }
 
 //getMiddle("test"); //should return "es"
